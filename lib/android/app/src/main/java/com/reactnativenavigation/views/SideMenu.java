@@ -1,9 +1,11 @@
 package com.reactnativenavigation.views;
 
 import android.content.*;
-import android.support.annotation.*;
-import android.support.v4.widget.*;
+
+import androidx.core.widget.*;
 import android.util.*;
+
+import androidx.drawerlayout.widget.DrawerLayout;
 
 public class SideMenu extends DrawerLayout {
     public SideMenu(@NonNull Context context) {
